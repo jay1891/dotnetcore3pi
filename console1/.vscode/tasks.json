@@ -82,7 +82,7 @@
             "command": "bash",
                 "args": [
                     "-c",
-                    "'sshpass -p \"raspberry\" rsync -rvuz $(wslpath '\"'${workspaceFolder}'\"')/bin/linux-arm/publish/ pi@192.168.43.47:share/${workspaceFolderBasename}/'"
+                    "'sshpass -p \"rpijdf\" rsync -rvuz $(wslpath '\"'${workspaceFolder}'\"')/bin/linux-arm/publish/ pi@192.168.1.58:share/${workspaceFolderBasename}/'"
                 ],
                 "problemMatcher": []
             
